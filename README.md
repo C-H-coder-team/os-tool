@@ -1,2 +1,2 @@
 # os-tool
-os tool
+os tool written by python
