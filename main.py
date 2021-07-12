@@ -6,12 +6,14 @@
 from tools import pym_install
 from tools import shutdown
 from tools import KMS
+from tools import goupi
 
 print('''
 功能选择：
 1.定时关机
 2.python模块安装
 3.win10系统激活
+4.狗屁不通文章生成器
 ''')
 
 s=input()
@@ -45,3 +47,6 @@ elif s=='3':
     6.win10 home 家庭版
     请选择对应系统：''')
     KMS.kmswin10(con)
+
+elif s=='4':
+    goupi.dog_pi()
